@@ -1,0 +1,74 @@
+p {
+    
+    font-size: 20px;
+    text-align: left;
+    color: blueviolet;
+}
+
+body {
+
+    color: blueviolet;
+    background-color: beige;
+    height: 300px;
+    width: 400px;
+}
+
+h1 {
+    color: purple;
+    text-align: center;
+}
+
+.banner {
+    color: purple;
+    background-color: aqua
+
+}
+
+.randomNumber {
+    height:150px;
+    width:250px;
+    background-color:green;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+
+}
+
+.score {
+    height: 150px;
+    width:100px;
+    background-color: aquamarine;
+    position: absolute;
+    left: 300px;
+    top: 450px;
+}
+
+
+.pic2 { 
+    margin-left: 100px; 
+    margin-top: -65px;
+
+}
+
+.pic3 {
+    margin-left: 200px;
+    margin-top: -65px;
+}
+
+.pic4 {
+    margin-left: 300px;
+    margin-top: -65px;
+}
+
+.rockClicks {
+background-color: aquamarine;
+height: 150px;
+width: 260px;
+}
+
+.clickBanner {
+    background-color: aquamarine;
+    width:260px;
+    text-align: center;
+    height: 75px;
+}
