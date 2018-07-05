@@ -8,7 +8,7 @@ p {
 body {
 
     color: blueviolet;
-    background-color: beige;
+    background-color: blanchedalmond;
     height: 300px;
     width: 400px;
 }
@@ -40,7 +40,7 @@ h1 {
     background-color: aquamarine;
     position: absolute;
     left: 300px;
-    top: 450px;
+    top: 455px;
 }
 
 
@@ -64,6 +64,7 @@ h1 {
 background-color: aquamarine;
 height: 150px;
 width: 260px;
+font-size: 30px;
 }
 
 .clickBanner {
@@ -71,4 +72,11 @@ width: 260px;
     width:260px;
     text-align: center;
     height: 75px;
+}
+
+.bttn {
+    width: 75px;
+    height: 55px;
+    background-color: red;
+    margin: 100px, 50px, 50px, 50px;
 }
