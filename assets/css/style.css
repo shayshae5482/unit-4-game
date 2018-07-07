@@ -13,6 +13,10 @@ body {
     width: 400px;
 }
 
+.container {
+background-color: darksalmon;
+color: darkblue;
+}
 h1 {
     color: purple;
     text-align: center;
