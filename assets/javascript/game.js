@@ -4,8 +4,8 @@
 
             var pCNumber = "";
 
-            for (var i = 0; i < 120; i++) {
-                var randomNumber = Math.floor((Math.random() * 120)) + 19;
+    
+    var randomNumber = Math.floor((Math.random() * 120)) + 19;
 
         pCNumber = randomNumber;
 
@@ -35,7 +35,7 @@
                 function reset() {
             pCNumber = Math.floor(Math.random() * 120) + 19;
         console.log(pCNumber)
-        $("randomNumber").text(pCNumber);
+        $(".randomNumber").text(pCNumber);
 
         crystalNumOne = Math.floor(Math.random() * 11) + 1;
         crystalNumTwo = Math.floor(Math.random() * 11) + 1;
@@ -118,6 +118,6 @@ $(".pic4").on("click", function () {
             lostGame();
         }
     });
-}
+
         });
 
