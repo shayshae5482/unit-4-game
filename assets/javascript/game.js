@@ -1,7 +1,5 @@
         $(document).ready(function () {
 
-
-
             //Computer random number variable
 
             var pCNumber = "";
