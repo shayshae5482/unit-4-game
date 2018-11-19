@@ -1,40 +1,44 @@
 p {
     
-    font-size: 20px;
+    font-size: 16px;
     text-align: left;
-    color: blueviolet;
+    color: black;
 }
 
 body {
 
-    color: blueviolet;
-    background-color: blanchedalmond;
-    height: 300px;
-    width: 400px;
+    background-image: url('../images/pixel.jpg');
+    width: 1000px;
+    padding: 10px;
+    margins: 100px;
 }
 
 .container {
-background-color: darksalmon;
+background-color: whitesmoke;
+align-items: center;
 color: darkblue;
+padding: 100px;
+width: -900px;
 }
 
 
 h1 {
     color: purple;
     text-align: center;
+    font-family: cursive;
 }
 
 .banner {
     color: purple;
-    background-color: aqua
+    background-color: gray;
 
 }
 
 .randomNumber {
     height:150px;
-    width:250px;
-    background-color:green;
-    color: white;
+    width:150px;
+    background-color:whitesmoke;
+    color: black;
     font-size: 50px;
     text-align: center;
 
@@ -42,7 +46,7 @@ h1 {
 
 .score {
     height: 150px;
-    width:100px;
+    width:130px;
     background-color: aquamarine;
     position: absolute;
     left: 300px;
@@ -63,7 +67,6 @@ h1 {
 
 .pic4 {
     margin-left: 300px;
-    margin-top: -65px;
 }
 
 .rockClicks {
@@ -85,4 +88,13 @@ font-size: 30px;
     height: 55px;
     background-color: red;
     margin: 100px, 50px, 50px, 50px;
+}
+
+#crystal-table {
+
+padding: -400 px;
+}
+
+#numbers{
+    padding: 50px;
 }

@@ -4,9 +4,14 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Unit 4 Game</title>
+    <title>Crystal Collector Game</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!---Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+
 
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
     <link rel="reset" href="assets/css/reset.css" />
@@ -14,57 +19,63 @@
 </head>
 
 <body>
-    <h1 class="banner"> Crystals Collector!</h1>
 
-    <div id="empty"></div>
+
     <div class="container">
-    <p> You will be given a random number at the start of the game.</p>
-    <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
-    <p> You win the game by matching your total score to the random number. You lose the game if your total score goes above
-        the random number. </p>
-    <p> The value of each crystal is hidden from you until you click on it.</p>
-    <p>Each time when the game starts, the game will change values of each crystal.</p>
-</div>
 
-    <div class="randomNumber"></div>
+        <div class="card">
+            <h1>Crystal Collector Game</h1>
+            <div class="card-body">
+                <p> You will be given a random number at the start of the game. There are four crystals below. By
+                    clicking on a crystal you will add a specific amount of points to your
+                    total score.</p>
+                <p> You win the game by matching your total score to the random number. You lose the game if your total
+                    score
+                    goes above the random number. The value of each crystal is hidden from you until you click on it.</p>
+                <p>Each time when the game starts, the game will change values of each crystal.</p>
 
-    <div class="score">
-        <p> WINS:
-            <span class="wns"></span>
-        </p>
-        <br>
-        <p>LOSSES:
-            <span class="lss"></span>
-        </p>
+            </div>
+        </div>
 
-    </div>
-    <br>
+        <table class="table" id="crystal-table">
+            <thead>
+                <tr>
+                    <th scope="col" class="pic"><img src="assets/images/if_Trillion.png" width="75" height="60"></th>
+                    <th scope="col" class="pic2"><img src="assets/images/if_Marquis_diamond.png" width="75" height="60"></th>
+                    <th scope="col" class="pic3"><img src="assets/images/if_Round_Brilliant.png" width="75" height="60"></th>
+                    <th scope="col" class="pic4"><img src="assets/images/if_Pear_diamond.png" width="75" height="60"></th>
+                </tr>
+            </thead>
+        </table>
 
-    <div class="pic">
-        <img src="assets/images/amethyst-265347_640.jpg" width="75" height="60">
-    </div>
-    <div class="pic2">
-        <img src="assets/images/rock-crystal.jpg" width="75" height="60">
-    </div>
-    <div class="pic3">
-        <img src="assets/images/rock-crystal-1603480_640.jpg" width="75" height="60">
-    </div>
-    <div class="pic4">
-        <img src="assets/images/gem-1576233_640.jpg" width="75" height="60">
-    </div>
-    </div>
 
-    <div class="clickBanner">
-        <h1>Your total score is:</h1>
-    </div>
-    <br>
+        <table class="table" id="numbers">
+            <thead>
+                <tr>
+                    <th scope="col" class="randomNumber"></th>
+                    <th scope="col" class="rockClicks"></th>
 
-    <div class="rockClicks">
-        <h2></h2>
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="assets/javascript/game.js"></script>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Your Score</th>
+                    <td>Wins</td>
+                    <td>Losses</td>
+                </tr>
+                <tr>
+                    <th scope="row"></th>
+                    <td class="wns"></td>
+                    <td class="lss"></td>
 
+                </tr>
+            </tbody>
+        </table>
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="assets/javascript/game.js"></script>
+    </div>
 </body>
 
 </html>
